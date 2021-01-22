@@ -30,6 +30,7 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
   geom_jitter() +
   theme_light() +
   labs(title = "Satie was here")
+# try one more time!
 ```
 
 ## PART B: Make problems
