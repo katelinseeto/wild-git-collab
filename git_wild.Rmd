@@ -39,6 +39,10 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ggplot(data = diamonds, aes(x = depth, y = carat)) +
   geom_point() +
   theme_void()
+
+6+6 # some basic math
+# let's see if this conflict occurs!
+# Satie was here
 ```
 
 ```{r break-it-2}
