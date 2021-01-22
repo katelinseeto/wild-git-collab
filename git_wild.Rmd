@@ -49,7 +49,10 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
 ```
 
 ```{r break-it-2}
-
+# Satie's new plot
+ggplot(data = diamonds, aes(x = depth, y = carat)) +
+  geom_point(aes(color="red")) +
+  theme_minimal()
 ```
 
 ## END Discussion 3
