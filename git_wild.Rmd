@@ -38,7 +38,9 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ```{r break-it-1}
 ggplot(data = diamonds, aes(x = depth, y = carat)) +
   geom_point() +
-  theme_void()
+  theme_bw()
+
+# Breaking things!!!! 
 ```
 
 ```{r break-it-2}
